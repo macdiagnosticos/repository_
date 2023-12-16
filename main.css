@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-base: #040455d7;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+header{
+    border: 1px solid #d3d3d3;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+img#academIcon{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    background-color: var(--color-base);
+}
+
+h1#h1Arch{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #040455d7;
+    color: #ffffff;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+    text-indent: 40px;
+    padding: 10px;
+}
+
+h1#h1Arch a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul#ulMenu{
+    text-align: center;
+    list-style: none;
+}
+
+nav#navHeader{
+    position: absolute;
+    left: 30%;
+
+}
+
+ul#ulMenu li{
+    padding-left: 10px;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #808080;
+}
+
+ul#ulMenu li a{
+    text-decoration: none;
+}
+
+ul#sectors{
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#sectors li{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    -webkit-transition: all 0.2s ease-in;
+}
+
+ul#sectors li span{
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 18px;
+    line-height: 500px;
+    padding: 5px;
+}
+
+ul#sectors li:hover span{
+    opacity: 1;
+    cursor: pointer;
+}
+
+ul#sectors li:hover{
+    -webkit-transform: scale(1.1);
+}
+
+ul#sectors li#image01{
+    background: url(./image/pathology-reception-500px.jpg), no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#sectors li#image01:hover{
+    background-position: 0px 0px ;
+    background-size: 300px 300px;
+}
+
+ul#sectors li#image02{
+    background: url(./image/pathologyst-500px.jpg), no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#sectors li#image02:hover{
+    background-position: 0px 0px ;
+    background-size: 300px 300px;
+}
+
+ul#sectors li#image03{
+    background: url(./image/clinic-reception-500px.jpg), no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#sectors li#image03:hover{
+    background-position: 0px 0px ;
+    background-size: 300px 300px;
+}
+
+ul#sectors li#image04{
+    background: url(./image/ultrassom-500px.png), no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#sectors li#image04:hover{
+    background-position: 0px 0px ;
+    background-size: 300px 300px;
+}
+
+footer{
+    background-color: var(--color-base);
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: -1px -1px 1px black;
+}

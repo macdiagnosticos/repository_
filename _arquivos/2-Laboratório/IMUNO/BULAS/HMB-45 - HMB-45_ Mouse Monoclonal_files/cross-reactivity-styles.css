@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'pixelfarm_pets_-_tyler-rRg';
+    src: url('../fonts/animalstyle-webfont.eot');
+    src: url('../fonts/animalstyle-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/animalstyle-webfont.woff2') format('woff2'),
+         url('../fonts/animalstyle-webfont.woff') format('woff'),
+         url('../fonts/animalstyle-webfont.ttf') format('truetype'),
+         url('../fonts/animalstyle-webfont.svg#pixelfarm_pets_-_tyler-rRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.animalstyle{
+	font-family: 'pixelfarm_pets_-_tyler-rRg';
+	font-size:24px;	
+}
+
+.animalstylesm{
+	font-family: 'pixelfarm_pets_-_tyler-rRg';
+	font-size:24px;	
+	
+}
+.upthere{
+	/*line-height:80%!important;*/
+	font-size:12px;
+	vertical-align:super;
+	color:#959595!important;
+}
+.arcyan{
+	color:#6dcff6!important;
+}
+.arorange{
+	color:#d44133!important;
+}
+.argreen{
+	color:#b5ca34!important;	
+}
+.ardkgreen{
+	color:#62947c!important;
+}
+.arbrown{
+	color:#824f1f!important;	
+}
+.arltbrown{
+	color:#b36d33!important;
+}
+.arpink{
+	color:#da7381!important;
+}
+.arcowbrown{
+	color:#e9a15c!important;
+}
+.arhorsered{
+	color:#e03757!important;	
+}
+.arsheeppurp{
+	color:#99a0c7!important;	
+}
+.arshrewpurp{
+	color:#a05299!important;	
+}
+.arhamorange{
+	color:#f79546!important;
+}
+.argppink{
+	color:#c53d82!important;
+}
+.arppink{
+	color:#df59a0!important;
+}
+.arlizardgreen{
+	color:#a8d0cc!important;
+}
+.arfishblue{
+	color:#299fc5!important;
+}
+
+/*--------------------------*/
+.iconblock{
+	width:100% !important;
+	height:5px!important;
+	margin-bottom:0px;
+	margin-left:0px!important;
+	margin-right:0px!important;
+}
+.arcyan_block{
+	background-color:#6dcff6!important;
+	
+}
+.arorange_block{
+	background-color:#d44133!important;
+	
+}
+.argreen_block{
+	background-color:#b5ca34!important;	
+	
+}
+.ardkgreen_block{
+	background-color:#62947c!important;
+	
+}
+.arbrown_block{
+	background-color:#824f1f!important;	
+	
+}
+.arltbrown_block{
+	background-color:#b36d33!important;
+	
+}
+.arpink_block{
+	background-color:#da7381!important;
+	
+}
+.arcowbrown_block{
+	background-color:#e9a15c!important;
+	
+}
+.arhorsered_block{
+	background-color:#e03757!important;	
+	
+}
+.arsheeppurp_block{
+	background-color:#99a0c7!important;	
+	
+}
+.arshrewpurp_block{
+	background-color:#a05299!important;	
+	
+}
+.arhamorange_block{
+	background-color:#f79546!important;
+	
+}
+.argppink_block{
+	background-color:#c53d82!important;
+	
+}
+.arppink_block{
+	background-color:#df59a0!important;
+	
+}
+.arlizardgreen_block{
+	background-color:#a8d0cc!important;
+	
+}
+.arfishblue_block{
+	background-color:#299fc5!important;
+	
+}
+
+.mywidth{
+	width:140px!important;
+}
+.unbold{
+	font-weight:normal!important;	
+}
+
+.rothead {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1.0em;
+}
+
+
+
+/*CSS FOR TABLES */
+
+table.floatThead-table {
+    border-top: none;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.legend-icon {
+	margin:0 10px 0 0;
+	line-height:2;
+}
+
+#cross-reactivity-mobile table > thead {
+	font-size:0.8em;
+	padding:20px;
+}
+
+#cross-reactivity-mobile table .animalstylesm {
+	margin:0 0 0 3px;
+	line-height:1;
+	font-size:1.7em;
+	padding-top:20px;
+	
+}
+
+
+#cross-reactivity-mobile table #cr-legend {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1.3em;
+	font-weight:600;
+	
+}
+
+
+
+
+#cross-reactivity-mobile table tbody .animalstyle {
+	margin:0 0 5px 10px;
+	padding:0;
+}
+
+#cross-reactivity-mobile table tbody td{
+	vertical-align:middle;
+
+}
+
+#cross-reactivity-desktop table tbody td{
+	vertical-align:middle;
+
+}
+
+
+
+@media only screen and (min-width : 992px) {
+	  #cross-reactivity-mobile {
+		  display:none;
+	  }
+}
+
+@media only screen and (max-width : 991px) {
+	  #cross-reactivity-desktop {
+		  display:none;
+	  }
+}
+
