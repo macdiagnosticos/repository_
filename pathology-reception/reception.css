@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+article#recArticle{
+    max-width: 900px ;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+article#recArticle ul li{
+    list-style: none;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+article#recArticle ul li a{
+    text-decoration: none;
+}
+
+article#recArticle ul li a:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+article#recArticle ul li a:visited{
+    color: #000000;
+}
+
+aside#asideRecPatho{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+}
