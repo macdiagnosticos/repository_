@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    border: 1px solid #d3d3d3;
+    border: 1px solid #808080;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -98,6 +98,11 @@ ul#sectors li span{
 ul#sectors li:hover span{
     opacity: 1;
     cursor: pointer;
+}
+
+ul#sectors li span a{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 ul#sectors li:hover{
