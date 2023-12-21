@@ -6,11 +6,8 @@
 }
 
 :root{
-    --color-base: #040455d7;
-}
-
-body{
-    background-color: lightgrey;
+    --color-base: #033f72;
+    --color-button: #1C75C0;
 }
 
 header{
@@ -27,8 +24,8 @@ img#academIcon{
 }
 
 h1#h1Arch{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #040455d7;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-base);
     color: #ffffff;
     margin-top: 20px;
     text-shadow: 1px 1px 2px black;
@@ -44,7 +41,6 @@ h1#h1Arch a{
 }
 
 h1#h1Arch a:hover{
-    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -53,26 +49,31 @@ nav#navHeader{
 }
 
 nav#navHeader p{
-    padding-left: 10px;
     display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-shadow: 0px 1px 1px #808080;
 }
 
-nav#navHeader p a{
+nav#navHeader p a:link{
+    background-color: var(--color-button);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
 }
 
-nav#navHeader p a:hover{
-    background-color: rgba(0, 0, 0, .2);
-    padding: 5px;
-    border-radius: 5px;
-
+nav#navHeader p a:visited{
+    color: #ffffff;
 }
 
-nav#navHeader p a:visited{
+nav#navHeader p a:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+    border: 1px solid var(--color-button);
     color: var(--color-base);
+}
+
+nav#navHeader p a:active{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 ul#sectors{
@@ -104,11 +105,7 @@ ul#sectors li span{
     font-size: 18px;
     line-height: 500px;
     padding: 5px;
-}
-
-ul#sectors li:hover span{
-    opacity: 1;
-    cursor: pointer;
+    border-radius: 10px;
 }
 
 ul#sectors li span a{
@@ -116,12 +113,17 @@ ul#sectors li span a{
     text-decoration: none;
 }
 
+ul#sectors li:hover span{
+    opacity: 1;
+    cursor: pointer;
+}
+
 ul#sectors li:hover{
     -webkit-transform: scale(1.1);
 }
 
 ul#sectors li#image01{
-    background: url(./image/pathology-reception-500px.jpg), no-repeat;
+    background: url(./image/pathology-reception-500px-new2.jpg), no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
