@@ -16,10 +16,13 @@ article#origin h1{
 }
 
 article#origin p{
-    width: 90%;
+    max-width: 70%;
     text-align: justify;
     text-indent: 10px;
     margin: auto;
     color: var(--color-base);
     line-height: 25px;
+    padding: 20px 30px;
+    max-height: 300px;
+    overflow: auto;
 }

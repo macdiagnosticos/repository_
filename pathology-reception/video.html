@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recepção Laboratório</title>
+    <link rel="shortcut icon" href="../icon/nova-logotipo-2021.ico" type="image/x-icon">
     <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="videoStyle.css">
+    <link rel="stylesheet" href="./styles-pathology/videoStyle.css">
 </head>
 <body>
     <header>
@@ -19,24 +20,65 @@
         </nav>
     </header>
 
+    <p id="path"><a href="../index.html">Início ></a> Vídeos Target</p>
+
     <aside id="return">
-        <a href="./pathology-rec.html"><img src="../image/return-button.png" alt="return"></a>
+        <a href="./pathology-rec.html"><img src="../image/return-button.png" alt="return"> Voltar à pagina anterior</a>
     </aside>
 
-    <article>
-        <div id="containerVideos">
+    <article id="artVideos">
+        <div class="containerVideo">
             <video width="320" height="240" controls poster="../image/logo-mac-320.png">
                 <source src="../videos/target/01-cadastro-target.mp4" type="video/mp4">
             </video>
-            <div id="overlay">
+            <div class="overlay">
                 <p>Cadastro Target</p>
+            </div>
+        </div>
+        <div class="containerVideo">
+            <video width="320" height="240" controls poster="../image/logo-mac-320.png">
+                <source src="../videos/target/02-entrega-de-laudos.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <p>Entrega de laudo</p>
+            </div>
+        </div>
+        <div class="containerVideo">
+            <video width="320" height="240" controls poster="../image/logo-mac-320.png">
+                <source src="../videos/target/03-caixa.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <p>Fch. de Caixa</p>
+            </div>
+        </div>
+        <div class="containerVideo">
+            <video width="320" height="240" controls poster="../image/logo-mac-320.png">
+                <source src="../videos/target/04-relatorio-entrada-de-exames.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <p>Rel. de exames</p>
+            </div>
+        </div>
+        <div class="containerVideo">
+            <video width="320" height="240" controls poster="../image/logo-mac-320.png">
+                <source src="../videos/target/05-cadastro-de-medicos.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <p>Cad. de médicos</p>
+            </div>
+        </div>
+        <div class="containerVideo">
+            <video width="320" height="240" controls poster="../image/logo-mac-320.png">
+                <source src="../videos/target/06-outros-cadastros.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <p>Outros cadastros</p>
             </div>
         </div>
     </article>
 
     <footer>
-        <p><a href="https://www.macdiagnosticos.com.br/">Mac Diagnósticos Médicos</a> - Único e essencial para você.</p>
+        <p><a href="https://www.macdiagnosticos.com.br/" target="_blank" rel="noreferrer noopener">Mac Diagnósticos Médicos</a> <br> Único e essencial para você.</p>
     </footer>
-    <script src="main.js"></script>
 </body>
 </html>

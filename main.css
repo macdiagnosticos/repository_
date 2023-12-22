@@ -3,11 +3,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
     --color-base: #033f72;
     --color-button: #1C75C0;
+    --color-path: #808080;
 }
 
 header{
@@ -76,6 +78,21 @@ nav#navHeader p a:hover{
 nav#navHeader p a:active{
     background-color: #000000;
     color: #ffffff;
+}
+
+p#path{
+    padding: 10px;
+    color: var(--color-path);
+}
+
+p#path a:link{
+    text-decoration: none;
+    color: var(--color-path);
+}
+
+p#path a:visited{
+    text-decoration: none;
+    color: var(--color-path);
 }
 
 ul#sectors{
@@ -179,7 +196,6 @@ ul#sectors li#image04:hover{
 footer{
     background-color: var(--color-base);
     color: #ffffff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     text-shadow: 1px 1px 3px black;
     padding: 20px;
@@ -188,6 +204,10 @@ footer{
     width: 100%;
     left: 0;
     box-shadow: -1px -1px 1px black;
+}
+
+footer p{
+    padding-right: 40px;
 }
 
 footer a {
