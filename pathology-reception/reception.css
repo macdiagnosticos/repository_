@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+:root{
+    --color-base: #033f72;
+    --color-button: #1C75C0;
+}
+
 article#recArticle{
     max-width: 900px ;
     margin-left: 30px;
@@ -33,4 +38,33 @@ aside#asideRecPatho{
     border-radius: 5px;
     margin: 10px;
     float: left;
+}
+
+aside#videos p{
+    padding: 8px 5px;
+    border-radius: 10px;
+    margin: 15px;
+    width: 110px;
+    background-color: var(--color-button);
+    text-align: center;
+}
+
+aside#videos p a:link{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+aside#videos p a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+aside#videos p:hover{
+    background-color: #ffffff;
+    border: 1px solid var(--color-base);
+}
+
+aside#videos p a:hover{
+    color: var(--color-base);
 }

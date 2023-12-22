@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+:root{
+    --color-base: #033f72;
+
+}
+
+article#origin h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: var(--color-base);
+}
+
+article#origin p{
+    width: 90%;
+    text-align: justify;
+    text-indent: 10px;
+    margin: auto;
+    color: var(--color-base);
+    line-height: 25px;
+}
