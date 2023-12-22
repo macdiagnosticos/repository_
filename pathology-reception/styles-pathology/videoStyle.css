@@ -8,10 +8,6 @@ aside#return{
     margin: 20px;
 }
 
-article#artVideos{
-    margin-bottom: 100px;
-}
-
 aside#return a:link{
     text-decoration: none;
     color: #808080;
@@ -20,6 +16,10 @@ aside#return a:link{
 aside#return a:visited{
     text-decoration: none;
     color: #808080;
+}
+
+article{
+    margin-bottom: 15vw;
 }
 
 div.containerVideo{
