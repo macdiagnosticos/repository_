@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+article img{
+    display: block;
+    margin: auto;
+}
+
+article{
+    background-color: grey;
+    max-width: 90vw;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 15vw;
+}
+
+article h1, h3{
+    text-align: center;
+    padding: 5px;
+}
+
+article p{
+    text-align: justify;
+    text-indent: 10px;
+    padding: 3px;
+}
+
+article ul{
+    padding: 20px;
+}
+
+div.citoImages{
+    text-align: center;
+}
+
+div.citoImages img{
+    display: inline-block;
+    height: 300px;
+}
+
+div.medicalReq{
+    text-align: center;
+}
+
+div.medicalReq img{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+}
