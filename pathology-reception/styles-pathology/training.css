@@ -19,7 +19,16 @@ article{
     border-radius: 0px 0px 10px 10px;
 }
 
-article h1, h3, h4, h5{
+article h1, h3{
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: var(--color-base);
+}
+
+article h4, h5{
     text-align: center;
     margin: 15px;
     padding: 5px;
@@ -32,6 +41,8 @@ article p{
     text-align: justify;
     text-indent: 10px;
     padding: 3px;
+    margin: 15px;
+    line-height: 26px;
 }
 
 article ul{
@@ -84,6 +95,9 @@ q{
     text-align: center;
     padding: 10px;
     text-decoration: underline;
+    background-color: #1c76c046;
+    border-radius: 10px;
+    margin: 15px;
 }
 
 img#uparrow{
