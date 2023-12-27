@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+:root{
+    --color-base: #033f72;
+    --color-button: #1C75C0;
+}
+
 article img{
     display: block;
     margin: auto;
@@ -11,11 +16,16 @@ article{
     padding: 25px;
     margin-bottom: 15vw;
     background-color: rgba(240, 248, 255, 0.849);
+    border-radius: 0px 0px 10px 10px;
 }
 
-article h1, h3{
+article h1, h3, h4, h5{
     text-align: center;
+    margin: 15px;
     padding: 5px;
+    background-color: var(--color-button);
+    color: #ffffff;
+    border-radius: 10px;
 }
 
 article p{
@@ -25,7 +35,7 @@ article p{
 }
 
 article ul{
-    padding: 20px;
+    padding: 10px 10px 10px 20px;
 }
 
 div.citoImages{
@@ -58,4 +68,20 @@ aside.observation{
 
 article ol{
     padding: 20px;
+}
+
+figure img{
+    border: 1px solid #000000;
+}
+
+figure figcaption{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+q{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
 }
