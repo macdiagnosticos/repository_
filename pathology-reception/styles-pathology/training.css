@@ -46,7 +46,11 @@ article p{
 }
 
 article ul{
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 25px;
+}
+
+article ol{
+    padding: 10px 10px 10px 25px;
 }
 
 div.citoImages{
@@ -77,8 +81,14 @@ aside.observation{
     margin: 8px;
 }
 
-article ol{
-    padding: 20px;
+q{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    background-color: #1c76c046;
+    border-radius: 10px;
+    margin: 15px;
 }
 
 figure img{
@@ -88,16 +98,6 @@ figure img{
 figure figcaption{
     text-align: center;
     padding-bottom: 15px;
-}
-
-q{
-    display: block;
-    text-align: center;
-    padding: 10px;
-    text-decoration: underline;
-    background-color: #1c76c046;
-    border-radius: 10px;
-    margin: 15px;
 }
 
 img#uparrow{
