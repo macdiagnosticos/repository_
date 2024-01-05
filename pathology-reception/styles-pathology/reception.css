@@ -5,6 +5,10 @@
     --color-button: #1C75C0;
 }
 
+body{
+    margin-bottom: 15vw;
+}
+
 article#recArticle{
     max-width: 900px ;
     margin-left: 30px;
@@ -48,6 +52,7 @@ aside.button ul{
 
 aside.button ul li{
     display: inline-block;
+    margin: 10px 0;
 }
 
 aside.button ul li a:link{

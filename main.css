@@ -123,13 +123,17 @@ ul#sectors li span{
     background-color: rgba(0, 0, 0, .5);
     font-size: 18px;
     line-height: 500px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 10px;
 }
 
 ul#sectors li span a{
     color: #ffffff;
     text-decoration: none;
+    display: inline-block;
+    width: 280px;
+    height: 300px;
+    cursor: pointer;
 }
 
 ul#sectors li:hover span{
