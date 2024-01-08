@@ -94,6 +94,7 @@ figure figcaption{
 div.listContainer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 q{
@@ -145,4 +146,25 @@ table tr{
 table tr:nth-child(even){
     background-color: #1c76c044;
     color: #000000;
+}
+
+.picCaption{
+    color: #808080;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+picture{
+    display: block;
+}
+
+picture img{
+    display: block;
+    margin: auto;
+}
+
+picture source{
+    display: block;
+    margin: auto;
 }
