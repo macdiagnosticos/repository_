@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+:root{
+    --color-base: #033f72;
+    --color-button: #1C75C0;
+    --color-path: #808080;
+}
+
+body{
+    margin-bottom: 15vw;
+}
+
+main h1{
+    text-align: center;
+    color: var(--color-base);
+}
+
+main div{
+    padding: 10px;
+    margin: 20px 50px;
+}
+
+main div p{
+    padding: 8px;
+    color: var(--color-base);
+}
+
+address{
+    color: var(--color-base);
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+iframe{
+    width: 100%;
+}
+
+main a:link{
+    text-decoration: none;
+    color: var(--color-base);
+}
+
+main a:visited{
+    text-decoration: none;
+    color: var(--color-base);
+}
+
+main a:hover{
+    text-decoration: underline;
+    background-color: #ffffff;
+    color: var(--color-base);
+    padding: 5px;
+}
