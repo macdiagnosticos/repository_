@@ -17,9 +17,11 @@ article img#logoTipo{
 }
 
 article{
-    max-width: 90vw;
+    width: 90vw;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 15vw;
+    background-color: rgba(245, 242, 239, 0.568);
 }
 
 article h1{
