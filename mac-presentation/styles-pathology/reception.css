@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+:root{
+    --color-base: #033f72;
+    --color-button: #1C75C0;
+}
+
+body{
+    margin-bottom: 15vw;
+}
+
+article#recArticle{
+    max-width: 900px ;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+article#recArticle ul li{
+    list-style: none;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+article#recArticle ul li a:link{
+    text-decoration: none;
+    color: var(--color-base);
+}
+
+article#recArticle ul li a:visited{
+    text-decoration: none;
+    color: var(--color-base);
+}
+
+article#recArticle ul li a:hover{
+    text-decoration: underline;
+    background-color: #ffffff;
+    border: 1px solid var(--color-base);
+    color: var(--color-base);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+article#recArticle ul li a:active{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+aside.button ul{
+    list-style: none;
+    margin: 30px 20px 0px 40px;
+}
+
+aside.button ul li{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+aside.button ul li a:link{
+    background-color: var(--color-button);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside.button ul li a:visited{
+    background-color: var(--color-button);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+aside.button ul li a:hover{
+    background-color: #ffffff;
+    border: 1px solid var(--color-base);
+    color: var(--color-base);
+}

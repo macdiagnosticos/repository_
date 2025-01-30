@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+    --color-base: #033f72;
+    --color-button: #1C75C0;
+    --font-titles: 'Lato', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+h1.welcome {
+    font-size: 1.6em;
+    color: var(--color-base);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h2.history {
+    font-size: 1em;
+    color: var(--color-base);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h3.enjoy {
+    font-size: 1.2em;
+    color: var(--color-base);
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+div.historyVideo {
+    text-align: center;
+}
+
+/* Estilos básicos para o vídeo */
+.historyVideo {
+    display: flex;
+    justify-content: center; /* Centraliza o vídeo horizontalmente */
+    align-items: center;    /* Centraliza o vídeo verticalmente */
+    padding: 20px;
+    margin-bottom: 90px; /* Adicionado espaço extra entre o vídeo e o rodapé */
+}
+
+.historyVideo iframe {
+    max-width: 100%; /* O vídeo não ultrapassa a largura do dispositivo */
+    height: auto;    /* Mantém a proporção do vídeo */
+    border: none;    /* Remove bordas extras */
+    aspect-ratio: 16 / 9; /* Define a proporção para dispositivos que suportam */
+}
+
+/* Estilo para telas menores */
+@media (max-width: 768px) {
+    .historyVideo iframe {
+        width: 100%; /* Ajusta a largura do vídeo à tela */
+        height: auto; /* Mantém a proporção automaticamente */
+    }
+}
+
+/* Estilo para telas muito pequenas */
+@media (max-width: 480px) {
+    .historyVideo {
+        padding: 10px; /* Reduz o espaçamento nas laterais */
+    }
+}

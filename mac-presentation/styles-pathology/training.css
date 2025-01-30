@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root{
+    --color-base: #033f72;
+    --color-button: #1C75C0;
+    --font-titles: 'Lato', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+article img#logoTipo{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+article{
+    width: 90vw;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 15vw;
+    background-color: rgba(245, 242, 239, 0.568);
+}
+
+article h1{
+    text-indent: 15px;
+    color: var(--color-base);
+    font-size: 2.2em;
+    font-family: var(--font-titles);
+    margin: 30px;
+}
+
+article h2, h3, h4, h5{
+    color: var(--color-base);
+    margin: 30px;
+    font-family: var(--font-titles);
+}
+
+article p{
+    text-align: justify;
+    text-indent: 15px;
+    font-family: var(--font-body);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+article ol, ul{
+    margin: 20px 60px;
+}
+
+article ol li, ul li{
+    font-family: var(--font-body);
+}
+
+div.citoImages{
+    text-align: center;
+}
+
+div.citoImages img{
+    display: inline-block;
+    height: 200px;
+}
+
+aside.observation p{
+    text-decoration: underline;
+    margin: 10px;
+}
+
+aside.observation a:link{
+    text-decoration: none;
+}
+
+aside.observation a:visited{
+    color: #000000;
+}
+
+aside.observation a:hover{
+    text-decoration: underline;
+}
+
+figure{
+    text-align: center;
+    margin: 50px;
+}
+
+figure figcaption{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    color: #808080;
+}
+
+div.listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+q{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #1c76c046;
+    margin: 15px;
+    font-family: var(--font-body);
+}
+
+img#uparrow{
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    border: none;
+    box-shadow: none;
+}
+
+table{
+    margin: 25px 65px;
+    margin: auto;
+}
+
+table, tr, td, th{
+    border: 1px solid var(--color-base);
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+table caption{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-titles);
+    margin-top: 20px;
+}
+
+table th{
+    width: 230px;
+    font-family: var(--font-titles);
+    font-size: 18px;
+}
+
+table tr{
+    text-indent: 8px;
+    font-family: var(--font-body);
+}
+
+table tr:nth-child(even){
+    background-color: #1c76c044;
+    color: #000000;
+}
+
+.picCaption{
+    color: #808080;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+picture{
+    display: block;
+}
+
+picture img{
+    display: block;
+    margin: auto;
+}
+
+picture source{
+    display: block;
+    margin: auto;
+}
