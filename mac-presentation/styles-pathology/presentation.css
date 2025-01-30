@@ -54,6 +54,13 @@ div.historyVideo {
     aspect-ratio: 16 / 9; /* Define a proporção para dispositivos que suportam */
 }
 
+.historyVideo video {
+    max-width: 100%; /* O vídeo não ultrapassa a largura do dispositivo */
+    height: auto;    /* Mantém a proporção do vídeo */
+    border: none;    /* Remove bordas extras */
+    aspect-ratio: 16 / 9; /* Define a proporção para dispositivos que suportam */
+}
+
 /* Estilo para telas menores */
 @media (max-width: 768px) {
     .historyVideo iframe {
